@@ -1,0 +1,22 @@
+Problem 3: C++ String Questions
+
+1. string a = "hello ";
+   - This creates a `std::string` object named `a` and initializes it with the value "hello ".
+   - The C++ `std::string` class automatically converts a C-style string (`const char*`) to a `std::string`.
+
+2. string b(temp);
+   - This initializes a string `b` using the value stored in `temp`. 
+   - If `temp` is a `std::string`, `b` will have the same content.
+
+3. string c = a + b;
+   - This concatenates string `a` and string `b` to form a new string `c`.
+   - The `+` operator appends the value of `b` to `a`.
+
+4. if (string("cat") < string("dog"))
+   - This compares `"cat"` and `"dog"` lexicographically (alphabetically).
+   - Since `"cat"` comes before `"dog"`, the condition evaluates to `true`.
+
+5. while(getline(ss, token, ' '))
+   - This extracts words from the `stringstream ss` and stores them in `token`.
+   - The function `getline()` reads until it encounters the space character `' '`, splitting the text into words.
+
